@@ -1,0 +1,52 @@
+body {
+	background:#66BFBF;
+	font-family: Helvetica;
+	color: #40514E;
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	text-shadow: 2px 2px black;
+}
+p {
+	font-family: Helvetica;
+	color: #EEEEEE;
+
+}
+
+.modify {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.skills{
+	list-style-type: square;
+	list-style-position: inside;
+	color: #EEEEEE;
+	text-align: center;
+}
+
+.flex-containerEE{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.flex-containerCont{
+	display:flex;
+	justify-content: space-around;
+	background-color: #C3DBD9;
+}
+@media (max-width: 800px) {
+  .flex-containerCont{
+    flex-direction: column;
+  }
+}
+
+#martaPic{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 50%;
+	max-width: 20%;
+	max-height: 20%
+}
